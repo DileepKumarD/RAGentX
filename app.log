@@ -1,0 +1,291 @@
+2026-04-26 23:47:28,064 - app.main - INFO - Starting RAGentX API...
+2026-04-26 23:48:24,704 - app.main - INFO - Starting RAGentX API...
+2026-04-26 23:48:57,556 - app.main - INFO - Starting RAGentX API...
+2026-04-26 23:49:10,544 - app.api.endpoints.ingest - INFO - Accessing embeddings...
+2026-04-26 23:49:10,545 - sentence_transformers.base.model - INFO - No device provided, using cpu
+2026-04-26 23:49:10,934 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-26 23:49:10,935 - huggingface_hub.utils._http - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-26 23:49:10,949 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-04-26 23:49:11,225 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-26 23:49:11,239 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-26 23:49:11,242 - sentence_transformers.base.model - INFO - Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-04-26 23:49:11,532 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-26 23:49:11,544 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-26 23:49:11,838 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-04-26 23:49:11,851 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+2026-04-26 23:49:12,118 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-26 23:49:12,130 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-04-26 23:49:12,453 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-26 23:49:12,466 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-04-26 23:49:12,757 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-04-26 23:49:13,067 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-26 23:49:13,080 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-04-26 23:49:13,487 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-04-26 23:49:13,785 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-26 23:49:14,063 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-26 23:49:14,400 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-26 23:49:14,662 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-26 23:49:14,677 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-26 23:49:14,956 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-26 23:49:15,107 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-04-26 23:49:15,423 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-26 23:49:15,436 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-04-26 23:49:15,730 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-26 23:49:15,744 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-26 23:49:16,037 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-26 23:49:16,346 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-26 23:49:16,755 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-26 23:49:16,768 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-04-26 23:49:17,062 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-04-26 23:49:17,066 - app.api.endpoints.ingest - INFO - Processing MultiTasking - Copy.pdf (ID: e0a83a21-eb98-4ff2-b41a-56f19ed0a6cc)...
+2026-04-26 23:49:19,140 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-04-26 23:49:19,482 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-04-26 23:49:19,635 - app.api.endpoints.ingest - INFO - Successfully ingested MultiTasking - Copy.pdf
+2026-04-26 23:49:19,635 - app.api.endpoints.ingest - INFO - Processing DataAugmentation - Copy.pdf (ID: 017b5785-0e52-47dc-9c86-c83e70b2e7d7)...
+2026-04-26 23:49:19,661 - pypdf._reader - WARNING - Ignoring wrong pointing object 10 0 (offset 0)
+2026-04-26 23:49:19,662 - pypdf._reader - WARNING - Ignoring wrong pointing object 37 0 (offset 0)
+2026-04-26 23:49:19,662 - pypdf._reader - WARNING - Ignoring wrong pointing object 39 0 (offset 0)
+2026-04-26 23:49:19,662 - pypdf._reader - WARNING - Ignoring wrong pointing object 41 0 (offset 0)
+2026-04-26 23:49:19,662 - pypdf._reader - WARNING - Ignoring wrong pointing object 43 0 (offset 0)
+2026-04-26 23:49:19,662 - pypdf._reader - WARNING - Ignoring wrong pointing object 45 0 (offset 0)
+2026-04-26 23:49:19,663 - pypdf._reader - WARNING - Ignoring wrong pointing object 75 0 (offset 0)
+2026-04-26 23:49:19,663 - pypdf._reader - WARNING - Ignoring wrong pointing object 101 0 (offset 0)
+2026-04-26 23:49:19,663 - pypdf._reader - WARNING - Ignoring wrong pointing object 118 0 (offset 0)
+2026-04-26 23:49:19,664 - pypdf._reader - WARNING - Ignoring wrong pointing object 233 0 (offset 0)
+2026-04-26 23:49:20,085 - app.api.endpoints.ingest - INFO - Successfully ingested DataAugmentation - Copy.pdf
+2026-04-26 23:49:20,085 - app.api.endpoints.ingest - INFO - Processing EarlyStopping - Copy.pdf (ID: 191f19cc-5988-4209-bee9-a1ec5e17aa14)...
+2026-04-26 23:49:20,096 - pypdf._reader - WARNING - Ignoring wrong pointing object 10 0 (offset 0)
+2026-04-26 23:49:20,096 - pypdf._reader - WARNING - Ignoring wrong pointing object 28 0 (offset 0)
+2026-04-26 23:49:20,096 - pypdf._reader - WARNING - Ignoring wrong pointing object 30 0 (offset 0)
+2026-04-26 23:49:20,096 - pypdf._reader - WARNING - Ignoring wrong pointing object 77 0 (offset 0)
+2026-04-26 23:49:20,097 - pypdf._reader - WARNING - Ignoring wrong pointing object 123 0 (offset 0)
+2026-04-26 23:49:20,097 - pypdf._reader - WARNING - Ignoring wrong pointing object 143 0 (offset 0)
+2026-04-26 23:49:20,097 - pypdf._reader - WARNING - Ignoring wrong pointing object 152 0 (offset 0)
+2026-04-26 23:49:20,414 - app.api.endpoints.ingest - INFO - Successfully ingested EarlyStopping - Copy.pdf
+2026-04-26 23:49:48,202 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 23:49:48,601 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 23:49:48,806 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-26 23:49:48,807 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2026-04-26 23:49:54,438 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 23:49:54,911 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-26 23:54:59,836 - app.main - INFO - Starting RAGentX API...
+2026-04-27 00:19:09,630 - app.main - INFO - Starting RAGentX API...
+2026-04-27 00:21:06,003 - app.main - INFO - Starting RAGentX API...
+2026-04-27 00:25:58,537 - app.main - INFO - Starting RAGentX API...
+2026-04-27 00:26:03,717 - app.api.endpoints.ingest - INFO - Accessing embeddings...
+2026-04-27 00:26:03,717 - app.retrieval.vectorstore - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2...
+2026-04-27 00:26:03,719 - sentence_transformers.base.model - INFO - No device provided, using cpu
+2026-04-27 00:26:04,079 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-27 00:26:04,090 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-04-27 00:26:04,387 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-27 00:26:04,389 - huggingface_hub.utils._http - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-27 00:26:04,402 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-27 00:26:04,405 - sentence_transformers.base.model - INFO - Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-04-27 00:26:04,694 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-27 00:26:04,706 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-27 00:26:05,000 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-04-27 00:26:05,011 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+2026-04-27 00:26:05,307 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-27 00:26:05,319 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-04-27 00:26:05,587 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-27 00:26:05,598 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-04-27 00:26:05,922 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-04-27 00:26:06,181 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-27 00:26:06,194 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-04-27 00:26:06,639 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-04-27 00:26:06,946 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-27 00:26:07,208 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-27 00:26:07,475 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-27 00:26:07,766 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-27 00:26:07,778 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-27 00:26:08,073 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-27 00:26:08,083 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-04-27 00:26:08,380 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-27 00:26:08,393 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-04-27 00:26:08,689 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-27 00:26:08,702 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-27 00:26:08,994 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-27 00:26:09,264 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-27 00:26:09,610 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-27 00:26:09,621 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-04-27 00:26:09,916 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-04-27 00:26:09,920 - app.retrieval.vectorstore - INFO - Embedding model loaded successfully.
+2026-04-27 00:26:09,920 - app.api.endpoints.ingest - INFO - Processing data.txt (ID: 13c7478a-fda6-46b1-b049-20f25430548d)...
+2026-04-27 00:26:09,923 - app.retrieval.vectorstore - INFO - No existing FAISS index found. Initializing empty index...
+2026-04-27 00:26:09,954 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-04-27 00:26:09,981 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-04-27 00:26:09,990 - app.retrieval.vectorstore - INFO - Empty FAISS index initialized.
+2026-04-27 00:26:10,001 - app.retrieval.vectorstore - INFO - Saving FAISS index to vectorstore/faiss_index...
+2026-04-27 00:26:10,002 - app.retrieval.vectorstore - INFO - FAISS index saved successfully.
+2026-04-27 00:26:10,007 - app.api.endpoints.ingest - INFO - Successfully ingested data.txt
+2026-04-27 00:27:46,886 - app.api.endpoints.ingest - INFO - Accessing embeddings...
+2026-04-27 00:27:46,886 - app.api.endpoints.ingest - INFO - Processing large.txt (ID: 66a0dadd-87f4-4a21-ba1a-d772916303e2)...
+2026-04-27 00:27:53,643 - app.retrieval.vectorstore - INFO - Loading existing FAISS index from vectorstore/faiss_index...
+2026-04-27 00:27:57,413 - app.retrieval.vectorstore - INFO - Saving FAISS index to vectorstore/faiss_index...
+2026-04-27 00:27:57,433 - app.retrieval.vectorstore - INFO - FAISS index saved successfully.
+2026-04-27 00:27:57,441 - app.api.endpoints.ingest - INFO - Successfully ingested large.txt
+2026-04-27 00:31:16,412 - app.main - INFO - Starting RAGentX API...
+2026-04-27 00:32:09,139 - app.main - INFO - Starting RAGentX API...
+2026-04-27 00:32:37,426 - app.api.endpoints.ingest - INFO - Accessing embeddings...
+2026-04-27 00:32:37,426 - app.retrieval.vectorstore - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2...
+2026-04-27 00:32:37,428 - sentence_transformers.base.model - INFO - No device provided, using cpu
+2026-04-27 00:32:37,806 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-27 00:32:37,807 - huggingface_hub.utils._http - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-27 00:32:37,828 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-04-27 00:32:38,113 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-27 00:32:38,130 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-27 00:32:38,132 - sentence_transformers.base.model - INFO - Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-04-27 00:32:38,420 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-27 00:32:38,435 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-27 00:32:38,727 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-04-27 00:32:38,742 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+2026-04-27 00:32:39,034 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-27 00:32:39,052 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-04-27 00:32:39,341 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-27 00:32:39,357 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-04-27 00:32:39,751 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-04-27 00:32:40,058 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-27 00:32:40,074 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-04-27 00:32:40,571 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-04-27 00:32:40,879 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-27 00:32:41,184 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-27 00:32:41,492 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-27 00:32:41,799 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-27 00:32:41,815 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-27 00:32:42,106 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-27 00:32:42,121 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-04-27 00:32:42,413 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-27 00:32:42,428 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-04-27 00:32:42,720 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-27 00:32:42,736 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-27 00:32:43,028 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-27 00:32:43,337 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-27 00:32:43,744 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-27 00:32:43,760 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-04-27 00:32:44,053 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-04-27 00:32:44,058 - app.retrieval.vectorstore - INFO - Embedding model loaded successfully.
+2026-04-27 00:32:44,058 - app.api.endpoints.ingest - INFO - Processing DataAugmentation.pdf (ID: 009e29ec-2943-47fb-8072-5fa28bf42cc7)...
+2026-04-27 00:32:44,212 - pypdf._reader - WARNING - Ignoring wrong pointing object 10 0 (offset 0)
+2026-04-27 00:32:44,213 - pypdf._reader - WARNING - Ignoring wrong pointing object 37 0 (offset 0)
+2026-04-27 00:32:44,214 - pypdf._reader - WARNING - Ignoring wrong pointing object 39 0 (offset 0)
+2026-04-27 00:32:44,214 - pypdf._reader - WARNING - Ignoring wrong pointing object 41 0 (offset 0)
+2026-04-27 00:32:44,215 - pypdf._reader - WARNING - Ignoring wrong pointing object 43 0 (offset 0)
+2026-04-27 00:32:44,215 - pypdf._reader - WARNING - Ignoring wrong pointing object 45 0 (offset 0)
+2026-04-27 00:32:44,216 - pypdf._reader - WARNING - Ignoring wrong pointing object 75 0 (offset 0)
+2026-04-27 00:32:44,217 - pypdf._reader - WARNING - Ignoring wrong pointing object 101 0 (offset 0)
+2026-04-27 00:32:44,217 - pypdf._reader - WARNING - Ignoring wrong pointing object 118 0 (offset 0)
+2026-04-27 00:32:44,218 - pypdf._reader - WARNING - Ignoring wrong pointing object 233 0 (offset 0)
+2026-04-27 00:32:44,484 - app.retrieval.vectorstore - INFO - No existing FAISS index found. Initializing empty index...
+2026-04-27 00:32:44,518 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2026-04-27 00:32:44,546 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2026-04-27 00:32:44,557 - app.retrieval.vectorstore - INFO - Empty FAISS index initialized.
+2026-04-27 00:32:44,812 - app.retrieval.vectorstore - INFO - Saving FAISS index to vectorstore/faiss_index...
+2026-04-27 00:32:44,814 - app.retrieval.vectorstore - INFO - FAISS index saved successfully.
+2026-04-27 00:32:44,819 - app.api.endpoints.ingest - INFO - Successfully ingested DataAugmentation.pdf
+2026-04-27 00:32:44,819 - app.api.endpoints.ingest - INFO - Processing EarlyStopping.pdf (ID: 07cbd28c-9775-49ff-b3c1-9dfde2ac5fb7)...
+2026-04-27 00:32:44,829 - pypdf._reader - WARNING - Ignoring wrong pointing object 10 0 (offset 0)
+2026-04-27 00:32:44,829 - pypdf._reader - WARNING - Ignoring wrong pointing object 28 0 (offset 0)
+2026-04-27 00:32:44,830 - pypdf._reader - WARNING - Ignoring wrong pointing object 30 0 (offset 0)
+2026-04-27 00:32:44,830 - pypdf._reader - WARNING - Ignoring wrong pointing object 77 0 (offset 0)
+2026-04-27 00:32:44,830 - pypdf._reader - WARNING - Ignoring wrong pointing object 123 0 (offset 0)
+2026-04-27 00:32:44,831 - pypdf._reader - WARNING - Ignoring wrong pointing object 143 0 (offset 0)
+2026-04-27 00:32:44,831 - pypdf._reader - WARNING - Ignoring wrong pointing object 152 0 (offset 0)
+2026-04-27 00:32:44,932 - app.retrieval.vectorstore - INFO - Loading existing FAISS index from vectorstore/faiss_index...
+2026-04-27 00:32:45,117 - app.retrieval.vectorstore - INFO - Saving FAISS index to vectorstore/faiss_index...
+2026-04-27 00:32:45,119 - app.retrieval.vectorstore - INFO - FAISS index saved successfully.
+2026-04-27 00:32:45,122 - app.api.endpoints.ingest - INFO - Successfully ingested EarlyStopping.pdf
+2026-04-27 00:32:45,122 - app.api.endpoints.ingest - INFO - Processing MultiTasking.pdf (ID: 2f8a01be-6b38-45ae-92a1-6544885a0d7b)...
+2026-04-27 00:32:45,192 - app.retrieval.vectorstore - INFO - Loading existing FAISS index from vectorstore/faiss_index...
+2026-04-27 00:32:45,290 - app.retrieval.vectorstore - INFO - Saving FAISS index to vectorstore/faiss_index...
+2026-04-27 00:32:45,292 - app.retrieval.vectorstore - INFO - FAISS index saved successfully.
+2026-04-27 00:32:45,296 - app.api.endpoints.ingest - INFO - Successfully ingested MultiTasking.pdf
+2026-04-27 00:33:17,720 - app.api.endpoints.chat - INFO - Received chat request for session: 71435e27-ddc1-4201-ba0a-51b4395d3c7e
+2026-04-27 00:33:17,720 - app.api.endpoints.chat - INFO - Fetching chat history from database...
+2026-04-27 00:33:17,723 - app.api.endpoints.chat - INFO - Invoking agentic graph...
+2026-04-27 00:33:17,728 - app.agents.nodes.rewriter - INFO - Rewriting query: what is data augmentation and how it works?
+2026-04-27 00:33:18,254 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-27 00:33:18,265 - app.agents.nodes.rewriter - INFO - Query rewritten to: What is the concept of data augmentation in machine learning and its operational process!
+2026-04-27 00:33:18,266 - app.agents.nodes.retriever - INFO - Retrieving docs for query: What is the concept of data augmentation in machine learning and its operational process!
+2026-04-27 00:33:18,266 - app.retrieval.vectorstore - INFO - Loading existing FAISS index from vectorstore/faiss_index...
+2026-04-27 00:33:18,285 - app.agents.nodes.retriever - INFO - Retrieved 4 documents from local index.
+2026-04-27 00:33:18,286 - app.agents.nodes.evaluator - INFO - Evaluating retrieved documents for relevance...
+2026-04-27 00:33:18,663 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-27 00:33:18,664 - app.agents.nodes.evaluator - INFO - Evaluation result: relevant
+2026-04-27 00:33:18,665 - app.agents.nodes.generator - INFO - Generating answer from retrieved documents...
+2026-04-27 00:33:19,651 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-27 00:33:19,652 - app.agents.nodes.generator - INFO - Answer generated successfully.
+2026-04-27 00:33:19,654 - app.agents.nodes.validator - INFO - Validating generated answer...
+2026-04-27 00:33:20,097 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-27 00:33:20,098 - app.agents.nodes.validator - INFO - Validation result: invalid
+2026-04-27 00:33:20,100 - app.agents.nodes.generator - INFO - Generating answer from retrieved documents...
+2026-04-27 00:33:21,223 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-27 00:33:21,224 - app.agents.nodes.generator - INFO - Answer generated successfully.
+2026-04-27 00:33:21,224 - app.agents.nodes.validator - INFO - Validating generated answer...
+2026-04-27 00:33:21,629 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-27 00:33:21,631 - app.agents.nodes.validator - INFO - Validation result: invalid
+2026-04-27 00:33:21,632 - app.agents.nodes.generator - INFO - Generating answer from retrieved documents...
+2026-04-27 00:33:22,656 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-27 00:33:22,658 - app.agents.nodes.generator - INFO - Answer generated successfully.
+2026-04-27 00:33:22,659 - app.agents.nodes.validator - INFO - Validating generated answer...
+2026-04-27 00:33:22,964 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-27 00:33:22,965 - app.agents.nodes.validator - INFO - Validation result: invalid
+2026-04-27 00:33:22,966 - app.agents.nodes.generator - INFO - Generating answer from retrieved documents...
+2026-04-27 00:33:23,990 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-27 00:33:23,991 - app.agents.nodes.generator - INFO - Answer generated successfully.
+2026-04-27 00:33:23,992 - app.agents.nodes.validator - INFO - Validating generated answer...
+2026-04-27 00:33:24,397 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-27 00:33:24,398 - app.agents.nodes.validator - INFO - Validation result: invalid
+2026-04-27 00:33:24,399 - app.agents.nodes.generator - INFO - Generating answer from retrieved documents...
+2026-04-27 00:33:25,421 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-27 00:33:25,423 - app.agents.nodes.generator - INFO - Answer generated successfully.
+2026-04-27 00:33:25,423 - app.agents.nodes.validator - INFO - Validating generated answer...
+2026-04-27 00:33:26,755 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-27 00:33:26,756 - app.agents.nodes.validator - INFO - Validation result: invalid
+2026-04-27 00:33:26,758 - app.agents.nodes.generator - INFO - Generating answer from retrieved documents...
+2026-04-27 00:33:27,879 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-27 00:33:27,880 - app.agents.nodes.generator - INFO - Answer generated successfully.
+2026-04-27 00:33:27,882 - app.agents.nodes.validator - INFO - Validating generated answer...
+2026-04-27 00:33:28,698 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-27 00:33:28,699 - app.agents.nodes.validator - INFO - Validation result: invalid
+2026-04-27 00:33:28,700 - app.agents.nodes.generator - INFO - Generating answer from retrieved documents...
+2026-04-27 00:33:29,701 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-27 00:33:29,703 - app.agents.nodes.generator - INFO - Answer generated successfully.
+2026-04-27 00:33:29,704 - app.agents.nodes.validator - INFO - Validating generated answer...
+2026-04-27 00:33:30,029 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-27 00:33:30,030 - app.agents.nodes.validator - INFO - Validation result: invalid
+2026-04-27 00:33:30,031 - app.agents.nodes.generator - INFO - Generating answer from retrieved documents...
+2026-04-27 00:33:31,157 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-27 00:33:31,159 - app.agents.nodes.generator - INFO - Answer generated successfully.
+2026-04-27 00:33:31,160 - app.agents.nodes.validator - INFO - Validating generated answer...
+2026-04-27 00:33:31,462 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-27 00:33:31,463 - app.agents.nodes.validator - INFO - Validation result: valid
+2026-04-27 00:33:31,464 - app.api.endpoints.chat - INFO - Graph invocation complete.
+2026-04-27 00:33:31,464 - app.api.endpoints.chat - INFO - Saving interaction to chat history...
+2026-04-27 00:33:31,469 - app.api.endpoints.chat - INFO - Request processed successfully.
+2026-04-27 00:35:54,680 - app.api.endpoints.chat - INFO - Received chat request for session: 71435e27-ddc1-4201-ba0a-51b4395d3c7e
+2026-04-27 00:35:54,681 - app.api.endpoints.chat - INFO - Fetching chat history from database...
+2026-04-27 00:35:54,684 - app.api.endpoints.chat - INFO - Invoking agentic graph...
+2026-04-27 00:35:54,686 - app.agents.nodes.rewriter - INFO - Rewriting query: whether it is classification or regression?
+2026-04-27 00:35:55,130 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-27 00:35:55,132 - app.agents.nodes.rewriter - INFO - Query rewritten to: Is data augmentation used for classification, regression, or both types of machine learning tasks.
+2026-04-27 00:35:55,133 - app.agents.nodes.retriever - INFO - Retrieving docs for query: Is data augmentation used for classification, regression, or both types of machine learning tasks.
+2026-04-27 00:35:55,133 - app.retrieval.vectorstore - INFO - Loading existing FAISS index from vectorstore/faiss_index...
+2026-04-27 00:35:55,147 - app.agents.nodes.retriever - INFO - Retrieved 4 documents from local index.
+2026-04-27 00:35:55,148 - app.agents.nodes.evaluator - INFO - Evaluating retrieved documents for relevance...
+2026-04-27 00:35:55,540 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-27 00:35:55,543 - app.agents.nodes.evaluator - INFO - Evaluation result: relevant
+2026-04-27 00:35:55,544 - app.agents.nodes.generator - INFO - Generating answer from retrieved documents...
+2026-04-27 00:35:56,154 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-27 00:35:56,156 - app.agents.nodes.generator - INFO - Answer generated successfully.
+2026-04-27 00:35:56,157 - app.agents.nodes.validator - INFO - Validating generated answer...
+2026-04-27 00:35:56,501 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-27 00:35:56,503 - app.agents.nodes.validator - INFO - Validation result: invalid
+2026-04-27 00:35:56,504 - app.agents.nodes.generator - INFO - Generating answer from retrieved documents...
+2026-04-27 00:35:56,989 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-27 00:35:56,991 - app.agents.nodes.generator - INFO - Answer generated successfully.
+2026-04-27 00:35:56,992 - app.agents.nodes.validator - INFO - Validating generated answer...
+2026-04-27 00:35:57,382 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-27 00:35:57,385 - app.agents.nodes.validator - INFO - Validation result: valid
+2026-04-27 00:35:57,386 - app.api.endpoints.chat - INFO - Graph invocation complete.
+2026-04-27 00:35:57,387 - app.api.endpoints.chat - INFO - Saving interaction to chat history...
+2026-04-27 00:35:57,394 - app.api.endpoints.chat - INFO - Request processed successfully.

@@ -1,0 +1,28 @@
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Secrets
+.env
+
+# Databases
+*.db
+*.sqlite3
+
+# Vector Store Index (don't commit locally built indices)
+vectorstore/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Idea / VS Code
+.idea/
+.vscode/
+
+# Project Specific
+.python-version
